@@ -1,0 +1,16 @@
+[lotus]
+#lotus token
+token="eyJhbGidfdciOiJ1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.82nZqsRbK6UWiU-XBqo-O-WXGNNz18WVyLti7eCXlxk"
+# lotus链
+url="http://100.41.1.35:1234/rpc/v0"
+
+[mongo]
+#mongo URL
+uri="mongodb://username:password@103.44.253.3:27017"
+#uri="mongodb://root:123456@172.16.200.3:27017"
+#dbname
+database="dbname"
+
+[process]
+#无需修改
+concurrent_process_block_go_routine_no=10
